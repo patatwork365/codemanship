@@ -1,4 +1,6 @@
 import unittest
+import sys
+print(f'sys.path : {sys.path}')
 
 from codemanship.src.cd import CD
 
