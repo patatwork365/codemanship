@@ -1,12 +1,10 @@
 import unittest
 
-class CD:
-    def buy(self, quantity):
-        return True
+from src.cd import CD
 
 
 class TestBuyCD(unittest.TestCase):
     def test_buy_cd(self):
-        cd = CD()
+        cd = CD('', '')
 
         self.assertTrue(cd.buy(quantity=3), True)
